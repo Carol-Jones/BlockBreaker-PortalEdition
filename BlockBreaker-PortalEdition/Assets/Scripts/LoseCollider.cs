@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoseCollider : MonoBehaviour
 {
@@ -12,5 +13,6 @@ public class LoseCollider : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Ball Entered.");
+        SceneManager.LoadScene("EndScreen");
     }
 }
