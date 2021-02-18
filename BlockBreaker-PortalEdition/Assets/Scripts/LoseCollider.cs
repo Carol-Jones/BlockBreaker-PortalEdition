@@ -12,7 +12,7 @@ public class LoseCollider : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Ball Entered.");
+        Debug.Log("Lose Collider: Ball Entered.");
         SceneManager.LoadScene("EndScreen");
     }
 }
