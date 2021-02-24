@@ -6,6 +6,17 @@ public class Block : MonoBehaviour
 {
     // References
     [SerializeField] AudioClip breakSound;
+    [SerializeField] LevelController level;
+
+    /// <summary>
+    /// Start is called on the frame when a script is enabled just before
+    /// any of the Update methods is called the first time.
+    /// </summary>
+    void Start()
+    {
+        level = FindObjectOfType<LevelController>();
+        level.AddUpBreakableBlocks();
+    }
 
     /// <summary>
     /// Sent when an incoming collider makes contact with this object's
