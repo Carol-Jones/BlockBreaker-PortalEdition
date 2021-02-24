@@ -8,11 +8,13 @@ public class Ball : MonoBehaviour
     [SerializeField] GameObject paddleRef;
     [SerializeField] float xVelocity = 2f;
     [SerializeField] float yVelocity = 15f;
-    [SerializeField] int screenWidth = 16;
     bool isBallLocked = true;
 
     // State
     Vector2 paddleToBallVec;
+    AudioSource audioSource;
+
+    [SerializeField] AudioClip[] ballClips;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -21,6 +23,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         paddleToBallVec = transform.position - paddleRef.transform.position;
+        audioSource = GetComponent<AudioSource>();
     }
 
     /// <summary>
@@ -47,6 +50,20 @@ public class Ball : MonoBehaviour
         {
             isBallLocked = false;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xVelocity, yVelocity);
+        }
+    }
+
+    /// <summary>
+    /// Sent when an incoming collider makes contact with this object's
+    /// collider (2D physics only).
+    /// </summary>
+    /// <param name="other">The Collision2D data associated with this collision.</param>
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(!isBallLocked)
+        {
+            AudioClip ballSound = ballClips[Random.Range(0,ballClips.Length)];
+            audioSource.PlayOneShot(ballSound);
         }
     }
 }

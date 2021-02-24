@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+    // References
+    [SerializeField] AudioClip breakSound;
+
     /// <summary>
     /// Sent when an incoming collider makes contact with this object's
     /// collider (2D physics only).
@@ -11,6 +14,7 @@ public class Block : MonoBehaviour
     /// <param name="other">The Collision2D data associated with this collision.</param>
     void OnCollisionEnter2D(Collision2D other)
     {
+        AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position);
         Destroy(gameObject);
     }
 }
