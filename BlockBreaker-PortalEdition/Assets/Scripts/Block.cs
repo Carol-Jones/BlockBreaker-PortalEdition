@@ -25,7 +25,7 @@ public class Block : MonoBehaviour
     /// <param name="other">The Collision2D data associated with this collision.</param>
     void OnCollisionEnter2D(Collision2D other)
     {
-        AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position, 0.5f);
         Destroy(gameObject);
     }
 }
