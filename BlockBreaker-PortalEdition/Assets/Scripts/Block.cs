@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    // Params
+    // Config Params
     int scoreValue = 5;
+    [SerializeField] float breakSoundVolume = 0.3f;
+    [SerializeField] int maxHits = 2;
+    [SerializeField] Sprite[] damageSprites;
 
     // References
     [SerializeField] AudioClip breakSound;
     [SerializeField] LevelController level;
-    [SerializeField] float breakSoundVolume = 0.3f;
     [SerializeField] GameObject BlockDestroyVFX;
     GameController gameController;
+    
+
+    //State Variables
+    [SerializeField] int timesHit = 0; // ONLY SERIALIZED FOR DEBUG PURPOSES
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -31,19 +37,39 @@ public class Block : MonoBehaviour
     /// <param name="other">The Collision2D data associated with this collision.</param>
     void OnCollisionEnter2D(Collision2D other)
     {
-        DestroyBlock();
-        gameController.ScoreUp(scoreValue);
+        if(tag == "Breakable")
+        {
+            HandleHit();
+        }
+    }
+
+    void HandleHit()
+    {
+        timesHit++;
+        if(timesHit == maxHits)
+        {
+            Debug.Log("Block Destroyed");
+            DestroyBlock();
+        }
+        else
+        {
+            ShowNextDamageSprite();
+        }
+    }
+
+    void ShowNextDamageSprite()
+    {
+        int spriteIndex = timesHit - 1;
+        GetComponent<SpriteRenderer>().sprite = damageSprites[spriteIndex];
     }
 
     void DestroyBlock()
     {
-        if(tag == "Breakable")
-        {
-            AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position, breakSoundVolume);
-            TriggerVFX();
-            Destroy(gameObject);
-            level.BlockDestroyed();
-        }
+        AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position, breakSoundVolume);
+        TriggerVFX();
+        Destroy(gameObject);
+        level.BlockDestroyed();
+        gameController.ScoreUp(scoreValue);
     }
 
     void TriggerVFX()

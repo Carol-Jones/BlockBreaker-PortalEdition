@@ -24,8 +24,7 @@ public class SceneController : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        gameController = FindObjectOfType<GameController>();
-        gameController.ResetGame();
+        FindObjectOfType<GameController>().ResetGame();
         SceneManager.LoadScene(0);
     }
 
