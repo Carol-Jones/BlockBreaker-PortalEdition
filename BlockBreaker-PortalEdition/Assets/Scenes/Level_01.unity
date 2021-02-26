@@ -8193,6 +8193,10 @@ PrefabInstance:
       propertyPath: paddleRef
       value: 
       objectReference: {fileID: 1338953668}
+    - target: {fileID: 3912456898546190674, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
+      propertyPath: wallBounce
+      value: 
+      objectReference: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
     - target: {fileID: 3912456898546190679, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -8239,6 +8243,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3912456898546190681, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: m_Name
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 3912456898546190681, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
+      propertyPath: m_TagString
       value: Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8364,6 +8372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7700504769455079222, guid: 14572f539bdb18649a92c578c5dc61c0, type: 3}
+      propertyPath: paddleSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
     - target: {fileID: 7700504769455079224, guid: 14572f539bdb18649a92c578c5dc61c0, type: 3}
       propertyPath: m_RootOrder
       value: 2

@@ -15,6 +15,7 @@ public class Ball : MonoBehaviour
     AudioSource audioSource;
 
     [SerializeField] AudioClip[] ballClips;
+    [SerializeField] AudioClip wallBounce;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -64,6 +65,11 @@ public class Ball : MonoBehaviour
         {
             AudioClip ballSound = ballClips[Random.Range(0,ballClips.Length)];
             audioSource.PlayOneShot(ballSound);
+        }
+
+        if(other.gameObject.CompareTag("Wall"))
+        {
+            audioSource.PlayOneShot(wallBounce);
         }
     }
 }

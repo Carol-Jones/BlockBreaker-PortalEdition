@@ -8,13 +8,14 @@ public class Paddle : MonoBehaviour
     [SerializeField] int screenWidth = 16;
     [SerializeField] float minX = 0.75f;
     [SerializeField] float maxX = 15.5f;
+    [SerializeField] AudioClip paddleSound;
 
     /// <summary>
     /// Update is called every frame, if the MonoBehaviour is enabled.
     /// </summary>
     void Update()
     {
-        Debug.Log(Input.mousePosition);
+        //Debug.Log(Input.mousePosition);
         
         MovePaddle();
     }
@@ -32,5 +33,18 @@ public class Paddle : MonoBehaviour
         Vector2 paddlePos = new Vector2(transform.position.x, transform.position.y);
         paddlePos.x = Mathf.Clamp(posX, minX, maxX);
         transform.position = paddlePos;
+    }
+
+    /// <summary>
+    /// Sent when an incoming collider makes contact with this object's
+    /// collider (2D physics only).
+    /// </summary>
+    /// <param name="other">The Collision2D data associated with this collision.</param>
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Ball"))
+        {
+            AudioSource.PlayClipAtPoint(paddleSound, Camera.main.transform.position);
+        }
     }
 }
