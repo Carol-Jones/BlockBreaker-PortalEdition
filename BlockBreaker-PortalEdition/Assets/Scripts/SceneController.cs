@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    Scene currScene; 
+    Scene currScene;
+    GameController gameController;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -23,6 +24,8 @@ public class SceneController : MonoBehaviour
 
     public void ReturnToMenu()
     {
+        gameController = FindObjectOfType<GameController>();
+        gameController.ResetGame();
         SceneManager.LoadScene(0);
     }
 

@@ -49,4 +49,9 @@ public class GameController : MonoBehaviour
         playerScore += value;
         scoreText.text = "Score:" + playerScore;
     }
+
+    public void ResetGame()
+    {
+        Destroy(gameObject);
+    }
 }
