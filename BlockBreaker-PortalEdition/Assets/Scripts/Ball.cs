@@ -6,7 +6,7 @@ public class Ball : MonoBehaviour
 {
     // Config Params
     [SerializeField] GameObject paddleRef;
-    [SerializeField] float xVelocity = 2f;
+    float xVelocity = 2f;
     [SerializeField] float yVelocity = 15f;
     bool isBallLocked = true;
 
@@ -49,6 +49,7 @@ public class Ball : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
+            xVelocity = Random.Range(-2f,2f);
             isBallLocked = false;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xVelocity, yVelocity);
         }
