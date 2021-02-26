@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2990671127315489486}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,6 +142,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f593fed987c2b54408f9a9d3e5e7fc93, type: 3}
   - {fileID: 8300000, guid: 56d218fe300f41549aa28e77c2c9f853, type: 3}
   - {fileID: 8300000, guid: 1fff62eceae16384d8c1605096cdbdff, type: 3}
+  wallBounce: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
 --- !u!82 &2990671127315489486
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151,7 +152,7 @@ AudioSource:
   m_GameObject: {fileID: 3912456898546190681}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3283193317379592262, guid: 33505b5cbb655524f97be4068caec769, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1

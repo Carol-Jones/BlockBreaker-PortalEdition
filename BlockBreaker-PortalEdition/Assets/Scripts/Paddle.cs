@@ -9,6 +9,16 @@ public class Paddle : MonoBehaviour
     [SerializeField] float minX = 0.75f;
     [SerializeField] float maxX = 15.5f;
     [SerializeField] AudioClip paddleSound;
+    AudioSource paddleAudioSource;
+
+    /// <summary>
+    /// Start is called on the frame when a script is enabled just before
+    /// any of the Update methods is called the first time.
+    /// </summary>
+    void Start()
+    {
+        paddleAudioSource = GetComponent<AudioSource>();
+    }
 
     /// <summary>
     /// Update is called every frame, if the MonoBehaviour is enabled.
@@ -44,7 +54,7 @@ public class Paddle : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Ball"))
         {
-            AudioSource.PlayClipAtPoint(paddleSound, Camera.main.transform.position);
+            paddleAudioSource.PlayOneShot(paddleSound);
         }
     }
 }
