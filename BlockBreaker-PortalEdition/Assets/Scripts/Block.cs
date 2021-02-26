@@ -21,8 +21,7 @@ public class Block : MonoBehaviour
     void Start()
     {
         gameController = FindObjectOfType<GameController>();
-        level = FindObjectOfType<LevelController>();
-        level.AddUpBreakableBlocks();
+        CountBreakableBlocks();
     }
 
     /// <summary>
@@ -38,14 +37,27 @@ public class Block : MonoBehaviour
 
     void DestroyBlock()
     {
-        AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position, breakSoundVolume);
-        TriggerVFX();
-        Destroy(gameObject);
-        level.BlockDestroyed();
+        if(tag == "Breakable")
+        {
+            AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position, breakSoundVolume);
+            TriggerVFX();
+            Destroy(gameObject);
+            level.BlockDestroyed();
+        }
     }
 
     void TriggerVFX()
     {
-        Instantiate(BlockDestroyVFX, transform.position, transform.rotation);
+        GameObject VFXInstance = Instantiate(BlockDestroyVFX, transform.position, transform.rotation);
+        Destroy(VFXInstance, 2f);
+    }
+
+    void CountBreakableBlocks()
+    {
+        level = FindObjectOfType<LevelController>();
+        if(tag == "Breakable")
+        {
+            level.AddUpBreakableBlocks();
+        }
     }
 }

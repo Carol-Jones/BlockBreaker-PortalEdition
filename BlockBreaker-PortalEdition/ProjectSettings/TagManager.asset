@@ -7,6 +7,9 @@ TagManager:
   - Ball
   - Paddle
   - Wall
+  - FxTemporaire
+  - Breakable
+  - Unbreakable
   layers:
   - Default
   - TransparentFX
