@@ -11,6 +11,7 @@ public class Block : MonoBehaviour
     [SerializeField] AudioClip breakSound;
     [SerializeField] LevelController level;
     [SerializeField] float breakSoundVolume = 0.3f;
+    [SerializeField] GameObject BlockDestroyVFX;
     GameController gameController;
 
     /// <summary>
@@ -38,7 +39,13 @@ public class Block : MonoBehaviour
     void DestroyBlock()
     {
         AudioSource.PlayClipAtPoint(breakSound,Camera.main.transform.position, breakSoundVolume);
+        TriggerVFX();
         Destroy(gameObject);
         level.BlockDestroyed();
+    }
+
+    void TriggerVFX()
+    {
+        Instantiate(BlockDestroyVFX, transform.position, transform.rotation);
     }
 }

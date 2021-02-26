@@ -125,3 +125,4 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 0}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}

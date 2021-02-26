@@ -1004,6 +1004,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (7)
@@ -2004,6 +2008,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (3)
@@ -3054,6 +3062,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (4)
@@ -5044,6 +5056,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (8)
@@ -6677,6 +6693,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (2)
@@ -6804,6 +6824,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (6)
@@ -7287,6 +7311,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (1)
@@ -7658,6 +7686,10 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1100612349}
+    - target: {fileID: 4024234081644925569, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
+      propertyPath: BlockDestroyVFX
+      value: 
+      objectReference: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
     - target: {fileID: 4457061889348230361, guid: 0ecc4bde7640c4240bb1b7e2b65e53e9, type: 3}
       propertyPath: m_Name
       value: tealblock (5)

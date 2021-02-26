@@ -171,6 +171,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2910448
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -296,6 +297,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &13676667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -421,6 +423,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &25236609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -546,6 +549,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &44859692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -671,6 +675,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &48133997
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -938,6 +943,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &155044268
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1063,6 +1069,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &162684153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1188,6 +1195,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &167262813
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1415,6 +1423,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &205467239
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1540,6 +1549,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &230127314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1665,6 +1675,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &231453074
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1790,6 +1801,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &236650032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1915,6 +1927,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &238628970
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2040,6 +2053,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &252875754
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2165,6 +2179,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &262307571
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2290,6 +2305,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &266417539
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2415,6 +2431,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &269860776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2605,6 +2622,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &318063434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2730,6 +2748,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &332952218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2855,6 +2874,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &351348579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2980,6 +3000,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &358027290
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3105,6 +3126,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &366364242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3230,6 +3252,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &377164481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3355,6 +3378,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &389880999
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3480,6 +3504,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &400386356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3605,6 +3630,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &415436760
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3730,6 +3756,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &417258614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3855,6 +3882,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &432692689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3980,6 +4008,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &445987351
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4105,6 +4134,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &482493189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4230,6 +4260,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &503909609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4355,6 +4386,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &536481080
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4480,6 +4512,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &548120533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4605,6 +4638,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &558062215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4730,6 +4764,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &570009135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4855,6 +4890,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &573112930
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4980,6 +5016,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &576347540
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5105,6 +5142,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &616094160
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5230,6 +5268,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &656506019
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5360,6 +5399,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &722301772
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5485,6 +5525,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &740129751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5610,6 +5651,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &763857778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5735,6 +5777,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &792044891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5860,6 +5903,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &794302251
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5985,6 +6029,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &797871005
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6110,6 +6155,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &798392724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6235,6 +6281,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &802209009
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6360,6 +6407,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &806040474
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6485,6 +6533,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &832488488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6610,6 +6659,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &837673977
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6735,6 +6785,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &853535860
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6860,6 +6911,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &866343642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6985,6 +7037,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &867178953
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7110,6 +7163,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &885614347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7235,6 +7289,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &888234743
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7360,6 +7415,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &891610216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7485,6 +7541,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &896551857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7610,6 +7667,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &936073211
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7735,6 +7793,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &941440914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7860,6 +7919,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &949980730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7985,6 +8045,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &956492866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8110,6 +8171,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &977059646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8235,6 +8297,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &996573530
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8360,6 +8423,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1038976749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8485,6 +8549,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1078605102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8610,6 +8675,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1096049549
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8735,6 +8801,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1098762922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9052,6 +9119,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1194816554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9177,6 +9245,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1203903457
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9302,6 +9371,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1213813692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9427,6 +9497,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1217888808
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9552,6 +9623,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1220729320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9677,6 +9749,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1224303282
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9802,6 +9875,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1228731276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9927,6 +10001,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1249758399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10052,6 +10127,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1279560700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10177,6 +10253,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1294560640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10302,6 +10379,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1301328344
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10427,6 +10505,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1305078157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10552,6 +10631,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1329572442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10677,6 +10757,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1337046164
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10802,6 +10883,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1338131271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10927,6 +11009,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1378369034
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11052,6 +11135,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1378747448
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11177,6 +11261,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1393659565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11302,6 +11387,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1401746520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11427,6 +11513,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1412343923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11552,6 +11639,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1438428452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11677,6 +11765,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1438794241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11802,6 +11891,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1438921730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11927,6 +12017,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1440198296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12052,6 +12143,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1463166534
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12177,6 +12269,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1467935599
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12302,6 +12395,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1470219094
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12427,6 +12521,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1470762545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12552,6 +12647,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1479332915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12677,6 +12773,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1481926295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12802,6 +12899,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1545240126
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12927,6 +13025,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1550060640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13052,6 +13151,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1551691296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13177,6 +13277,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1565794335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13302,6 +13403,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1588714463
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13427,6 +13529,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1595288986
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13552,6 +13655,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1598541923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13677,6 +13781,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1610948436
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13802,6 +13907,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1645352969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13927,6 +14033,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1679660439
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14052,6 +14159,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1707884258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14177,6 +14285,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1724556026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14302,6 +14411,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1727830538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14427,6 +14537,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1735927218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14552,6 +14663,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1739346926
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14677,6 +14789,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1764895359
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14802,6 +14915,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1765728848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14927,6 +15041,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1768206291
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15052,6 +15167,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1772825106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15177,6 +15293,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1787850883
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15302,6 +15419,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1788652431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15427,6 +15545,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1795727214
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15552,6 +15671,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1799685081
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15677,6 +15797,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1815183889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15859,6 +15980,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1828825416
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16070,6 +16192,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1852927699
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16195,6 +16318,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1893867049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16320,6 +16444,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1894197196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16445,6 +16570,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1942791443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16570,6 +16696,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1952136510
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16695,6 +16822,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &1973056258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16820,6 +16948,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2002962507
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16945,6 +17074,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2013609964
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17070,6 +17200,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2018222143
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17195,6 +17326,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2020977257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17320,6 +17452,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2035727258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17445,6 +17578,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2042903283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17570,6 +17704,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2043449442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17728,6 +17863,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2068964776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17853,6 +17989,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2076462996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17978,6 +18115,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2097843071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18103,6 +18241,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2099142565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18228,6 +18367,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2101372928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18353,6 +18493,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2110330741
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18478,6 +18619,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2111535100
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18603,6 +18745,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2123931217
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18728,6 +18871,7 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 84736709}
   breakSoundVolume: 0.3
+  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
 --- !u!212 &2135899614
 SpriteRenderer:
   m_ObjectHideFlags: 0
