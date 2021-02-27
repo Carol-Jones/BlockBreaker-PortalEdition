@@ -37,7 +37,7 @@ public class Paddle : MonoBehaviour
     /// Then it is multiplied by the width we actually want the screen to be so that it is normalized
     /// To the screensize.
     /// </summary>
-    void MovePaddle()
+    public virtual void MovePaddle()
     {
         float posX = Input.mousePosition.x / Screen.width * screenWidth;
         Vector2 paddlePos = new Vector2(transform.position.x, transform.position.y);

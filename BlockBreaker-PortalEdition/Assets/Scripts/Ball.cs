@@ -5,12 +5,12 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     // Config Params
-    [SerializeField] GameObject paddleRef;
+    
     float xVelocity = 2f;
     [SerializeField] float yVelocity = 15f;
     bool isBallLocked = true;
-    [Range(0.01f,3f)] [SerializeField] float yRandomFactor = 0.2f;
-    [Range(0.01f,3f)] [SerializeField] float xRandomFactor = 0.2f;
+    [SerializeField] float yRandomFactor = 0.2f;
+    [SerializeField] float xRandomFactor = 0.2f;
 
     // State
     Vector2 paddleToBallVec;
@@ -20,6 +20,7 @@ public class Ball : MonoBehaviour
     [SerializeField] AudioClip[] ballClips;
     [SerializeField] AudioClip wallBounce;
     Rigidbody2D rb2d;
+    [SerializeField] GameObject paddleRefBottom;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -27,7 +28,7 @@ public class Ball : MonoBehaviour
     /// </summary>
     void Start()
     {
-        paddleToBallVec = transform.position - paddleRef.transform.position;
+        paddleToBallVec = transform.position - paddleRefBottom.transform.position;
         audioSource = GetComponent<AudioSource>();
         rb2d = GetComponent<Rigidbody2D>();
     }
@@ -46,7 +47,7 @@ public class Ball : MonoBehaviour
 
     void BallToPaddleLock()
     {
-        Vector2 paddlePos = new Vector2(paddleRef.transform.position.x, paddleRef.transform.position.y);
+        Vector2 paddlePos = new Vector2(paddleRefBottom.transform.position.x, paddleRefBottom.transform.position.y);
         transform.position = paddlePos + paddleToBallVec;
     }
 
