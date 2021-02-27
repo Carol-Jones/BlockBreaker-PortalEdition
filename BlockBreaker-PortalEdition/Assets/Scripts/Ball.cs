@@ -9,13 +9,17 @@ public class Ball : MonoBehaviour
     float xVelocity = 2f;
     [SerializeField] float yVelocity = 15f;
     bool isBallLocked = true;
+    [Range(0.01f,3f)] [SerializeField] float yRandomFactor = 0.2f;
+    [Range(0.01f,3f)] [SerializeField] float xRandomFactor = 0.2f;
 
     // State
     Vector2 paddleToBallVec;
     AudioSource audioSource;
-
+    
+    // Caches References
     [SerializeField] AudioClip[] ballClips;
     [SerializeField] AudioClip wallBounce;
+    Rigidbody2D rb2d;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -25,6 +29,7 @@ public class Ball : MonoBehaviour
     {
         paddleToBallVec = transform.position - paddleRef.transform.position;
         audioSource = GetComponent<AudioSource>();
+        rb2d = GetComponent<Rigidbody2D>();
     }
 
     /// <summary>
@@ -51,7 +56,7 @@ public class Ball : MonoBehaviour
         {
             xVelocity = Random.Range(-2f,2f);
             isBallLocked = false;
-            GetComponent<Rigidbody2D>().velocity = new Vector2(xVelocity, yVelocity);
+            rb2d.velocity = new Vector2(xVelocity, yVelocity);
         }
     }
 
@@ -62,6 +67,7 @@ public class Ball : MonoBehaviour
     /// <param name="other">The Collision2D data associated with this collision.</param>
     void OnCollisionEnter2D(Collision2D other)
     {
+        Vector2 velocityTweak = new Vector2(Random.Range(0, xRandomFactor), Random.Range(0, yRandomFactor));
         if(!isBallLocked)
         {
             AudioClip ballSound = ballClips[Random.Range(0,ballClips.Length)];
@@ -72,5 +78,6 @@ public class Ball : MonoBehaviour
         {
             audioSource.PlayOneShot(wallBounce);
         }
+        rb2d.velocity += velocityTweak;
     }
 }

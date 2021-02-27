@@ -136,8 +136,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paddleRef: {fileID: 0}
-  xVelocity: 2
   yVelocity: 15
+  yRandomFactor: 0.3
+  xRandomFactor: 0.2
   ballClips:
   - {fileID: 8300000, guid: f593fed987c2b54408f9a9d3e5e7fc93, type: 3}
   - {fileID: 8300000, guid: 56d218fe300f41549aa28e77c2c9f853, type: 3}

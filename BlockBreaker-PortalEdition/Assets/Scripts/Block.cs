@@ -7,7 +7,6 @@ public class Block : MonoBehaviour
     // Config Params
     int scoreValue = 5;
     [SerializeField] float breakSoundVolume = 0.3f;
-    [SerializeField] int maxHits = 2;
     [SerializeField] Sprite[] damageSprites;
 
     // References
@@ -46,6 +45,7 @@ public class Block : MonoBehaviour
     void HandleHit()
     {
         timesHit++;
+        int maxHits = damageSprites.Length + 1;
         if(timesHit == maxHits)
         {
             Debug.Log("Block Destroyed");
@@ -60,7 +60,15 @@ public class Block : MonoBehaviour
     void ShowNextDamageSprite()
     {
         int spriteIndex = timesHit - 1;
-        GetComponent<SpriteRenderer>().sprite = damageSprites[spriteIndex];
+        if(damageSprites[spriteIndex] != null)
+        {
+            GetComponent<SpriteRenderer>().sprite = damageSprites[spriteIndex];
+        }
+        else
+        {
+            Debug.LogWarning("Block sprite is missing from array " + gameObject.name);
+        }
+        
     }
 
     void DestroyBlock()
