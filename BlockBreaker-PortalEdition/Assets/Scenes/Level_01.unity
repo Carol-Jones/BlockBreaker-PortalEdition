@@ -10752,7 +10752,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1950459331359726667, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: autoPlay
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950459331359726667, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
+      propertyPath: gameSpeed
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1950459331359726676, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: m_Name
@@ -10773,7 +10777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7756363161589328768, guid: c03f678cb79a1d343b7fce8b28e477d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.5
+      value: 15.75
       objectReference: {fileID: 0}
     - target: {fileID: 7756363161589328768, guid: c03f678cb79a1d343b7fce8b28e477d3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10946,6 +10950,10 @@ PrefabInstance:
       propertyPath: paddleRef
       value: 
       objectReference: {fileID: 1338953668}
+    - target: {fileID: 3912456898546190674, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
+      propertyPath: xRandomFactor
+      value: -0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3912456898546190674, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: yRandomFactor
       value: -0.8
@@ -11239,7 +11247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9178419063158463596, guid: 79f791f3eaa44d04290f8322e0f9f13d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9178419063158463596, guid: 79f791f3eaa44d04290f8322e0f9f13d, type: 3}
       propertyPath: m_LocalPosition.y

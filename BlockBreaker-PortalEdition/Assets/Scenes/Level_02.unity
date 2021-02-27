@@ -1399,7 +1399,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1950459331359726666, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1950459331359726666, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1440,6 +1440,10 @@ PrefabInstance:
     - target: {fileID: 1950459331359726666, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950459331359726667, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
+      propertyPath: autoPlay
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1950459331359726667, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: gameSpeed
@@ -1654,7 +1658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9178419063158463596, guid: 79f791f3eaa44d04290f8322e0f9f13d, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9178419063158463596, guid: 79f791f3eaa44d04290f8322e0f9f13d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3237,7 +3241,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7756363161589328768, guid: c03f678cb79a1d343b7fce8b28e477d3, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7756363161589328768, guid: c03f678cb79a1d343b7fce8b28e477d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6940,7 +6944,7 @@ PrefabInstance:
       objectReference: {fileID: 708082213}
     - target: {fileID: 3912456898546190679, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3912456898546190679, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11736,7 +11740,7 @@ Transform:
   - {fileID: 1120511738}
   - {fileID: 85468927}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2061393333 stripped
 Transform:
