@@ -100,7 +100,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 453cbe4c67ff5b243a2137067e0da372, type: 2}
   m_Interpolate: 0
@@ -135,7 +135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583072761caca64bbd01c397829e385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paddleRef: {fileID: 0}
   yVelocity: 15
   yRandomFactor: 0.3
   xRandomFactor: 0.3
@@ -144,6 +143,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 56d218fe300f41549aa28e77c2c9f853, type: 3}
   - {fileID: 8300000, guid: 1fff62eceae16384d8c1605096cdbdff, type: 3}
   wallBounce: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
+  paddleRefBottom: {fileID: 0}
 --- !u!82 &2990671127315489486
 AudioSource:
   m_ObjectHideFlags: 0

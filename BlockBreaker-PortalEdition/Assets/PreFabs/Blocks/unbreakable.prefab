@@ -93,7 +93,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7846122843076179901}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 946e3d53f6168004193bfb99eb0c8609, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122,7 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9516267956aceff4a9dee9c47e75b2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakSoundVolume: 0.3
+  damageSprites: []
   breakSound: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
   level: {fileID: 0}
-  breakSoundVolume: 0.3
   BlockDestroyVFX: {fileID: 0}
+  timesHit: 0

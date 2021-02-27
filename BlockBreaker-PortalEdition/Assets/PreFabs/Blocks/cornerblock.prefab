@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2357667888577060521}
   - component: {fileID: 2744269887961126038}
   - component: {fileID: 4544882627059967414}
+  - component: {fileID: 2525761441874672647}
   m_Layer: 0
   m_Name: cornerblock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4651189352065152823}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.55, y: 1.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 11029c49c67faef4a9692c17dab8f991, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -92,7 +93,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 4651189352065152823}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 946e3d53f6168004193bfb99eb0c8609, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -113,3 +114,21 @@ PolygonCollider2D:
       - {x: -0.25, y: -0.25}
       - {x: 0.25, y: -0.25}
       - {x: 0.25, y: 0.25}
+--- !u!114 &2525761441874672647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651189352065152823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9516267956aceff4a9dee9c47e75b2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakSoundVolume: 0.3
+  damageSprites: []
+  breakSound: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
+  level: {fileID: 0}
+  BlockDestroyVFX: {fileID: 100006, guid: 9f18ee4ac76f92f469346d34cc24cb9c, type: 3}
+  timesHit: 0

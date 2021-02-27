@@ -94,7 +94,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 7700504769455079226}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 946e3d53f6168004193bfb99eb0c8609, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -102,7 +102,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 1.6842105, y: 1.6842105}
     newSize: {x: 1.28, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -110,22 +110,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.017905235, y: 0.34357053}
-      - {x: -0.14771366, y: 0.33480805}
-      - {x: -0.2987607, y: 0.30249712}
-      - {x: -0.5005245, y: 0.19194466}
-      - {x: -0.65232146, y: 0.046779558}
-      - {x: -0.6358925, y: -0.055892702}
-      - {x: -0.520278, y: -0.062811255}
-      - {x: -0.22, y: -0.38}
-      - {x: 0.22, y: -0.38}
-      - {x: 0.52783966, y: -0.04715556}
-      - {x: 0.64, y: -0.06}
-      - {x: 0.64821494, y: 0.057853058}
-      - {x: 0.60307026, y: 0.10732037}
-      - {x: 0.51582336, y: 0.18995923}
-      - {x: 0.4243965, y: 0.24213332}
-      - {x: 0.24768788, y: 0.3233851}
+    - - {x: -0.28041047, y: 0.44624212}
+      - {x: -0.84210527, y: 0.2236842}
+      - {x: -0.84210527, y: -0.078947365}
+      - {x: -0.28947368, y: -0.5}
+      - {x: 0.28947368, y: -0.5}
+      - {x: 0.84210527, y: -0.078947365}
+      - {x: 0.84210527, y: 0.18421052}
+      - {x: 0.27754557, y: 0.44967237}
 --- !u!114 &7700504769455079222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +134,7 @@ MonoBehaviour:
   minX: 0.75
   maxX: 15.3
   paddleSound: {fileID: 8300000, guid: 67ba68a2cb545be45bd42e51ad0a50ab, type: 3}
+  paddleAudioSource: {fileID: 0}
 --- !u!82 &708082214
 AudioSource:
   m_ObjectHideFlags: 0

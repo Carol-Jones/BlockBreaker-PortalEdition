@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3071183671056550774}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a53af57e8ccd976489ba960fc9c0bac2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.6021943, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -93,7 +93,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3071183671056550774}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 946e3d53f6168004193bfb99eb0c8609, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122,10 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9516267956aceff4a9dee9c47e75b2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakSoundVolume: 0.3
-  maxHits: 1
+  breakSoundVolume: 0.5
   damageSprites: []
   breakSound: {fileID: 8300000, guid: 7b0a91172293d5340a155dd32844c534, type: 3}
   level: {fileID: 0}
-  BlockDestroyVFX: {fileID: 100000, guid: f54f4fc9cf06352498fda371dfbcf395, type: 3}
+  BlockDestroyVFX: {fileID: 100006, guid: 9f18ee4ac76f92f469346d34cc24cb9c, type: 3}
   timesHit: 0
