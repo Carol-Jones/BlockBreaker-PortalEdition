@@ -6245,6 +6245,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7700504769455079226, guid: 14572f539bdb18649a92c578c5dc61c0, type: 3}
   m_PrefabInstance: {fileID: 7700504768159740158}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1338953669 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 708082214, guid: 14572f539bdb18649a92c578c5dc61c0, type: 3}
+  m_PrefabInstance: {fileID: 7700504768159740158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1356503775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10745,6 +10750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1950459331359726667, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
+      propertyPath: autoPlay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1950459331359726676, guid: ea810238f259fc44eb28b10603eb10c8, type: 3}
       propertyPath: m_Name
       value: GameController
@@ -10806,6 +10815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 7756363161589328781, guid: c03f678cb79a1d343b7fce8b28e477d3, type: 3}
+      propertyPath: paddleAudioSource
+      value: 
+      objectReference: {fileID: 1338953669}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c03f678cb79a1d343b7fce8b28e477d3, type: 3}
 --- !u!1001 &2623151072940729690
@@ -10934,6 +10947,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1338953668}
     - target: {fileID: 3912456898546190674, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
+      propertyPath: yRandomFactor
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3912456898546190674, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: paddleRefBottom
       value: 
       objectReference: {fileID: 1338953668}
@@ -10947,7 +10964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3912456898546190679, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.481
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 3912456898546190679, guid: 6a035dbc0c5d88641ae6199d6f383b0e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11212,6 +11229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 9178419063158463592, guid: 79f791f3eaa44d04290f8322e0f9f13d, type: 3}
+      propertyPath: paddleAudioSource
+      value: 
+      objectReference: {fileID: 1338953669}
     - target: {fileID: 9178419063158463596, guid: 79f791f3eaa44d04290f8322e0f9f13d, type: 3}
       propertyPath: m_RootOrder
       value: 3

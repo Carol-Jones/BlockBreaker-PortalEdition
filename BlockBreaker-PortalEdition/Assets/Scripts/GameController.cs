@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     [Range(0.1f,5f)] [SerializeField] float gameSpeed = 1f;
     [SerializeField] int playerScore = 0;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] bool autoPlay = false;
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -53,5 +54,10 @@ public class GameController : MonoBehaviour
     public void ResetGame()
     {
         Destroy(gameObject);
+    }
+
+    public bool IsAutoPlayEnabled()
+    {
+        return autoPlay;
     }
 }

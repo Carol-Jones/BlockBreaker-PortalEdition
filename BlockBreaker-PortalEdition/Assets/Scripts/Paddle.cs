@@ -9,7 +9,9 @@ public class Paddle : MonoBehaviour
     [SerializeField] float minX = 0.75f;
     [SerializeField] float maxX = 15.5f;
     [SerializeField] AudioClip paddleSound;
-    AudioSource paddleAudioSource;
+    [SerializeField] AudioSource paddleAudioSource;
+    GameController gameController;
+    Ball ball;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -18,6 +20,8 @@ public class Paddle : MonoBehaviour
     void Start()
     {
         paddleAudioSource = GetComponent<AudioSource>();
+        gameController = FindObjectOfType<GameController>();
+        ball = FindObjectOfType<Ball>();
     }
 
     /// <summary>
@@ -30,6 +34,16 @@ public class Paddle : MonoBehaviour
         MovePaddle();
     }
 
+    public AudioSource GetPaddleAudioSource()
+    {
+        return paddleAudioSource;
+    }
+
+    public AudioClip GetPaddleSound()
+    {
+        return paddleSound;
+    }
+
     /// <summary>
     /// This function will move the paddle only along the x axis to the position of where the mouse is.
     /// It calculates the position by getting the position of the mouse in x,
@@ -39,10 +53,24 @@ public class Paddle : MonoBehaviour
     /// </summary>
     public virtual void MovePaddle()
     {
-        float posX = Input.mousePosition.x / Screen.width * screenWidth;
         Vector2 paddlePos = new Vector2(transform.position.x, transform.position.y);
-        paddlePos.x = Mathf.Clamp(posX, minX, maxX);
+        paddlePos.x = Mathf.Clamp(GetXPos(), minX, maxX);
         transform.position = paddlePos;
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private float GetXPos()
+    {
+        if(gameController.IsAutoPlayEnabled())
+        {
+            return ball.transform.position.x;
+        }
+        else
+        {
+            return Input.mousePosition.x / Screen.width * screenWidth;
+        }
     }
 
     /// <summary>
